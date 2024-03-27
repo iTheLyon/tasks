@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AppTareaFinal</name>
+    </assembly>
+    <members>
+        <member name="T:AppTareaFinal.DTOs.TareaDTO">
+            <inheritdoc/>
+        </member>
+        <member name="P:AppTareaFinal.DTOs.TareaDTO.IdTarea">
+            <inheritdoc cref="F:AppTareaFinal.DTOs.TareaDTO.idTarea"/>
+        </member>
+        <member name="P:AppTareaFinal.DTOs.TareaDTO.NombreTarea">
+            <inheritdoc cref="F:AppTareaFinal.DTOs.TareaDTO.nombreTarea"/>
+        </member>
+        <member name="T:AppTareaFinal.ViewsModels.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AppTareaFinal.ViewsModels.MainViewModel.ListaTareas">
+            <inheritdoc cref="F:AppTareaFinal.ViewsModels.MainViewModel.listaTareas"/>
+        </member>
+        <member name="F:AppTareaFinal.ViewsModels.MainViewModel.createCommand">
+            <summary>The backing field for <see cref="P:AppTareaFinal.ViewsModels.MainViewModel.CreateCommand"/>.</summary>
+        </member>
+        <member name="P:AppTareaFinal.ViewsModels.MainViewModel.CreateCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AppTareaFinal.ViewsModels.MainViewModel.Create"/>.</summary>
+        </member>
+        <member name="F:AppTareaFinal.ViewsModels.MainViewModel.editCommand">
+            <summary>The backing field for <see cref="P:AppTareaFinal.ViewsModels.MainViewModel.EditCommand"/>.</summary>
+        </member>
+        <member name="P:AppTareaFinal.ViewsModels.MainViewModel.EditCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:AppTareaFinal.ViewsModels.MainViewModel.Edit(AppTareaFinal.DTOs.TareaDTO)"/>.</summary>
+        </member>
+        <member name="F:AppTareaFinal.ViewsModels.MainViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:AppTareaFinal.ViewsModels.MainViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:AppTareaFinal.ViewsModels.MainViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:AppTareaFinal.ViewsModels.MainViewModel.Delete(AppTareaFinal.DTOs.TareaDTO)"/>.</summary>
+        </member>
+        <member name="T:AppTareaFinal.ViewsModels.TareaViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AppTareaFinal.ViewsModels.TareaViewModel.TareaDto">
+            <inheritdoc cref="F:AppTareaFinal.ViewsModels.TareaViewModel.tareaDto"/>
+        </member>
+        <member name="P:AppTareaFinal.ViewsModels.TareaViewModel.PageTitle">
+            <inheritdoc cref="F:AppTareaFinal.ViewsModels.TareaViewModel.pageTitle"/>
+        </member>
+        <member name="P:AppTareaFinal.ViewsModels.TareaViewModel.LoadingIsVisible">
+            <inheritdoc cref="F:AppTareaFinal.ViewsModels.TareaViewModel.loadingIsVisible"/>
+        </member>
+        <member name="F:AppTareaFinal.ViewsModels.TareaViewModel._saveCommand">
+            <summary>The backing field for <see cref="P:AppTareaFinal.ViewsModels.TareaViewModel.saveCommand"/>.</summary>
+        </member>
+        <member name="P:AppTareaFinal.ViewsModels.TareaViewModel.saveCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AppTareaFinal.ViewsModels.TareaViewModel.save"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IdTarea">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IdTarea" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NombreTarea">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NombreTarea" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ListaTareas">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ListaTareas" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TareaDto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TareaDto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PageTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PageTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LoadingIsVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LoadingIsVisible" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IdTarea">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IdTarea" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NombreTarea">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NombreTarea" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ListaTareas">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ListaTareas" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TareaDto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TareaDto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PageTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PageTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LoadingIsVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LoadingIsVisible" generated properties.</summary>
+        </member>
+    </members>
+</doc>
